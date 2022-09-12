@@ -11,7 +11,7 @@
 
 
 body {
-    background-color: #e2dfdf;
+    background-color: #f7f7f1;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ ul {
 }
 
 header {
-    background-color: #04356c;
+    background-color: #6a6aff;
     position: sticky;
     top: 0;
     padding: 30px 20px;
@@ -57,27 +57,38 @@ header {
     margin-top: 25px;
     margin-left: 0px;
     z-index: 1;
-    border: 5px solid #04356c;
+    border: 3px solid #090909;
+    border-radius: 10px;
 }
 .main__content1-div2--img2 {
     position: relative;
     margin-top: 150px;
     margin-left: -25px;
     z-index: 0;
-    border: 5px solid #04356c;
+    border: 3px solid #090909;
+    border-radius: 10px;
 }
 .main__content1-div2--img3 {
     position: relative;
     margin-top: 25px;
     margin-left: -25px;
     z-index: 1;
-    border: 5px solid #04356c;
+    border: 3px solid #090909;
+    border-radius: 10px;
 }
 .main__content1-div2--img4 {
     position: relative;
     margin-top: 150px;
     margin-left: -25px;
-    border: 5px solid #04356c;
+    border: 3px solid #090909;
+    border-radius: 10px;
+}
+.btn {
+    background-color: cornflowerblue;
+}
+.btn:hover {
+    background-color: antiquewhite;
+    
 }
 
 /* PROMOCIONES */
