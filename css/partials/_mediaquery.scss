@@ -1,0 +1,179 @@
+@media screen and (max-width: 1224px) and (min-width: 768px) {
+    .main__content1-div2--img1 {
+        display: none;
+    }
+    .main__content1-div2--img2 {
+        display: none;
+    }
+    .main__content1-div2--img3 {
+        display: none;
+    }
+    .main__content1-div2--img4 {
+        display: none;
+    } 
+
+    /* COMO LLAGAR */
+
+    .div_maps-img {
+        display: none;
+    }
+    .div_maps {
+        margin: auto;
+        width: 760px;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+
+} 
+
+@media screen and (max-width: 768px) and (min-width: 708px) {
+
+    .main__content1-div2--img1 {
+        display: none;
+    }
+    .main__content1-div2--img2 {
+        display: none;
+    }
+    .main__content1-div2--img3 {
+        display: none;
+    }
+    .main__content1-div2--img4 {
+        display: none;
+    }
+ 
+
+    /* PROMOCIONES */
+
+    .main__section2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .main__section2-div1 {
+        margin-bottom: 35px;
+    }
+    .main__section2-div2 {
+        margin-bottom: 35px;
+    }
+    .main__section2-div3 {
+        margin-bottom: 35px;
+    }
+
+    /* COMO LLEGAR */
+
+    .div_maps-img {
+        display: none;
+    }
+    .div_maps {
+        margin: auto;
+        width: 760px;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 708px) and (min-width: 320px) { 
+    .main__content1 {
+        background-image: none;
+    }
+    .main__content1-div2 {
+        display: none; 
+    }
+    .main__content2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .main__content2-div1 {
+        margin-top: 35px;
+    }
+    .main__content2-div2 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    /*PROMOCIONES*/
+    .main__section2 {
+        display: grid;
+    }
+    .main__section2-div1 {
+        margin-top: 35px;
+    }
+    .main__section2-div2 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .main__section2-div3 {
+        margin-bottom: 35px;
+    }
+    /*COMO LLEGAR*/
+    .section__comollegar {
+        display: flex;
+        justify-content: center;
+    }
+    .div_maps-img {
+        display: none;
+    }
+    .div_maps {
+        margin: auto;
+        width: 350px;
+        height: auto;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__content1 {
+        background-image: none;
+    }
+    .main__content1-div2 {
+        display: none;
+    }
+    .main__content2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .main__content2-div1 {
+        margin-top: 35px;
+        width: 280px;
+    }
+    .main__content2-div2 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        width: 280px;
+    }
+     /*PROMOCIONES*/
+     .main__section2 {
+        display: grid;
+    }
+    .main__section2-div1 {
+        margin-top: 35px;
+        width: 280px;
+    }
+    .main__section2-div2 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        width: 280px;
+    }
+    .main__section2-div3 {
+        margin-bottom: 35px;
+        width: 280px;
+    }
+    /*COMO LLEGAR*/
+    .section__comollegar {
+        display: flex;
+        justify-content: start;
+    }
+    .div_maps-img {
+        display: none;
+    }
+    .div_maps {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+}

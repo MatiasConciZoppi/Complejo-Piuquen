@@ -1,0 +1,46 @@
+.main__content1 {
+    background: url(../assets/Images/potrerodelosfunes1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 450px; 
+
+    .main__content1-div2--img1 {
+        position: relative;
+        margin-top: 25px;
+        margin-left: 0px;
+        z-index: 1;
+        border: 3px solid #090909;
+        border-radius: 10px;
+    }
+    .main__content1-div2--img2 {
+        position: relative;
+        margin-top: 150px;
+        margin-left: -25px;
+        z-index: 0;
+        border: 3px solid #090909;
+        border-radius: 10px;
+    }
+    .main__content1-div2--img3 {
+        position: relative;
+        margin-top: 25px;
+        margin-left: -25px;
+        z-index: 1;
+        border: 3px solid #090909;
+        border-radius: 10px;
+    }
+    .main__content1-div2--img4 {
+        position: relative;
+        margin-top: 150px;
+        margin-left: -25px;
+        border: 3px solid #090909;
+        border-radius: 10px;
+    }
+} 
+
+.btn {
+    background-color: cornflowerblue;
+}
+.btn:hover {
+    background-color: antiquewhite;
+    
+}
