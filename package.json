@@ -1,0 +1,19 @@
+{
+  "name": "complejo-piuquen-conci-zoppi-matias",
+  "version": "1.0.0",
+  "description": "Proyecto Cabañas Piuquen",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasConciZoppi/Complejo-Piuquen.git"
+  },
+  "author": "Matias Conci Zoppi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasConciZoppi/Complejo-Piuquen/issues"
+  },
+  "homepage": "https://github.com/MatiasConciZoppi/Complejo-Piuquen#readme"
+}
