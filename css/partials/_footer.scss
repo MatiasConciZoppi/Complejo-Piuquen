@@ -4,3 +4,18 @@
     position: absolute;
     bottom: 0;
 }
+
+$redes: (
+    facebook: blue,
+    instagram: pink,
+    whatsapp: green,
+);
+.facebook {
+    background-color: blue;
+}
+.instagram {
+    background-color: pink;
+}
+.whatsapp {
+    background-color: green;
+}

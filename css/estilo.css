@@ -47,6 +47,18 @@ header {
   bottom: 0;
 }
 
+.facebook {
+  background-color: blue;
+}
+
+.instagram {
+  background-color: pink;
+}
+
+.whatsapp {
+  background-color: green;
+}
+
 .main__content1 {
   background: url(../assets/Images/potrerodelosfunes1.webp);
   background-position: center;
@@ -104,32 +116,18 @@ header {
   justify-content: space-evenly;
   margin-top: 50px;
 }
-.main__section2 .main__section2-div1 {
+.main__section2 .main__section2-div1, .main__section2 .main__section2-div3, .main__section2 .main__section2-div2 {
   background-color: #fff;
   padding: 20px;
   width: 300px;
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
 }
-.main__section2 .main__section2-div1 .main__section2-div1--tittle {
+.main__section2 .main__section2-div1 .main__section2-div1--tittle, .main__section2 .main__section2-div3 .main__section2-div1--tittle, .main__section2 .main__section2-div2 .main__section2-div1--tittle {
   margin-bottom: 20px;
-}
-.main__section2 .main__section2-div2 {
-  background-color: #fff;
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
 }
 .main__section2 .main__section2-div2 .main__section2-div2--tittle {
   margin-bottom: 20px;
-}
-.main__section2 .main__section2-div3 {
-  background-color: #fff;
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
 }
 .main__section2 .main__section2-div3 .main__section2-div3--tittle {
   margin-bottom: 20px;
@@ -210,7 +208,7 @@ header {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
-  .main__section2-div1 {
+  .main__section2-div1, .main__section2 .main__section2-div2, .main__section2 .main__section2-div3 {
     margin-bottom: 35px;
   }
   .main__section2-div2 {
@@ -253,7 +251,7 @@ header {
   .main__section2 {
     display: grid;
   }
-  .main__section2-div1 {
+  .main__section2-div1, .main__section2 .main__section2-div2, .main__section2 .main__section2-div3 {
     margin-top: 35px;
   }
   .main__section2-div2 {
@@ -304,7 +302,7 @@ header {
   .main__section2 {
     display: grid;
   }
-  .main__section2-div1 {
+  .main__section2-div1, .main__section2 .main__section2-div2, .main__section2 .main__section2-div3 {
     margin-top: 35px;
     width: 280px;
   }
