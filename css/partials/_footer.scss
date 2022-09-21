@@ -19,3 +19,7 @@ $redes: (
 .whatsapp {
     background-color: green;
 }
+
+.tarjethouse {
+    background-color: map-get($map:$redes , $key:instagram );
+}

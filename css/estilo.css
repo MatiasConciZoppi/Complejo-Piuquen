@@ -59,6 +59,10 @@ header {
   background-color: green;
 }
 
+.tarjethouse {
+  background-color: pink;
+}
+
 .main__content1 {
   background: url(../assets/Images/potrerodelosfunes1.webp);
   background-position: center;
