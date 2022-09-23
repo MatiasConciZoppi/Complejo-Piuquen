@@ -11,7 +11,7 @@ $mensaje .= "Menaje: " . $_POST["mensaje"] . "\r\n";
 $mensaje .= "Enviado el" .date("d/m/y", time());
 
 $para = "comlejopiuquen1@gmail.com";
-$asunto = "Este mail fue enviado desde la web Complejo Piuquen"
+$asunto = "Este mail fue enviado desde la web Complejo Piuquen";
 
 //funcion mail
 //a quien le mando el mail 
