@@ -101,11 +101,11 @@ header {
   border-radius: 10px;
 }
 
-.btn {
+.button1 {
   background-color: cornflowerblue;
 }
 
-.btn:hover {
+.button1:hover {
   background-color: antiquewhite;
 }
 
@@ -167,6 +167,14 @@ header {
 .div_maps-img {
   -webkit-margin-end: 300px;
           margin-inline-end: 300px;
+}
+
+.button2 {
+  background-color: cornflowerblue;
+}
+
+.button1:hover {
+  background-color: antiquewhite;
 }
 
 @media screen and (max-width: 1224px) and (min-width: 768px) {

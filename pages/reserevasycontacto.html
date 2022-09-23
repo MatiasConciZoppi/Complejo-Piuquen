@@ -130,21 +130,22 @@
                 </div>
                 <div class="col-md-6 mt-5">
                     <h4>Envianos un mensaje</h4>
-                    <form>
+                    <form action="form.php" method="POST">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Ingresa tu nombre">
+                                placeholder="Ingresa tu nombre" name="name">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">E-mail</label>
                             <input type="email" class="form-control" id="exampleFormControlInput2"
-                                placeholder="name@example.com">
+                                placeholder="name@example.com" name="email">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textarea"></textarea>
                         </div>
+                        <button type="submit" class="btn button2">Enviar</button>
                     </form>
                 </div>
             </div>
